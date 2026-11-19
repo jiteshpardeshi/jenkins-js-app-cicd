@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('hii i am jitesh and this is my first CICD pipeline');
+  res.send('hii And this is my first automated pipeline using target server using webhooks');
 });
 
 app.listen(port, () => {
